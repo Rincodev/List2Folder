@@ -82,13 +82,11 @@ You’ll need OAuth credentials:
 - `SPOTIPY_CLIENT_SECRET`
 - `SPOTIPY_REDIRECT_URI` (example: `http://localhost:8888/callback`)
 
-Put them into environment variables (recommended) or a local `.env` (do not commit).
+Put them into environment variables (recommended) or a local `.env`.
 
 ### YouTube Music
 Uses `ytmusicapi` (unofficial). You’ll export browser auth headers into a local file:
-- `headers_auth.json` (must be **gitignored**)
-
-Docs: see `docs/en/index.md`.
+- `headers_auth.json`
 
 ---
 
@@ -151,64 +149,3 @@ PRs and issues are welcome. If you add a provider or improve matching, please in
 
 ## License
 MIT — see [LICENSE](LICENSE).
-
----
-
-## Repo structure to add (for full functionality)
-
-### Minimum (working CLI)
-
-```
-list2folder/
-  __init__.py
-  __main__.py      # allow: python -m list2folder
-  cli.py           # argparse/typer entry
-  matching.py      # normalization + fuzzy matching
-  library.py       # scan local files + read tags (mutagen)
-  operations.py    # copy/move + safe rename
-  providers/
-    __init__.py
-    spotify.py     # spotipy provider
-    ytmusic.py     # ytmusicapi provider
-```
-
-### Dependencies
-
-- `requirements.txt` OR `pyproject.toml` (recommended for releases)
-- Typical deps: `mutagen`, `rapidfuzz`, `spotipy`, `ytmusicapi`, `python-dotenv` (optional)
-
-### Docs (FireLog Insight style)
-
-```
-docs/
-  assets/
-    logo.png
-  en/index.md
-  ru/index.md
-```
-
-### Optional but recommended
-
-```
-.github/workflows/
-  ci.yml           # lint + tests
-
-tests/
-  test_matching.py
-  test_library_scan.py
-
-.env.example       # spotify env template
-.gitignore         # include .env, headers_auth.json, venv, dist, etc.
-CHANGELOG.md       # releases
-CONTRIBUTING.md    # contribution guide
-```
-
----
-
-## Notes for .gitignore (must include)
-- `.env`
-- `headers_auth.json`
-- `.venv/`, `venv/`
-- `__pycache__/`
-- `dist/`, `build/`, `*.egg-info/`
-- `.pytest_cache/`
