@@ -157,13 +157,6 @@ python -m list2folder \
 
 ---
 
-## Roadmap
-- [ ] Create `.m3u` playlist alongside exported folder
-- [ ] Track-number ordering in output (01, 02, 03…)
-- [ ] Better multi-artist handling (collabs)
-
----
-
 ## Contributing
 PRs and issues are welcome. If you add a provider or improve matching, please include a small test sample.
 
