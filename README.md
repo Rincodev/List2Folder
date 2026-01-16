@@ -24,13 +24,6 @@
 </p>
 
 <p align="center">
-  <a href="docs/en/index.md"><img src="https://img.shields.io/badge/English-0A84FF?style=for-the-badge"></a>
-  <a href="docs/ru/index.md"><img src="https://img.shields.io/badge/Русский-1F6FEB?style=for-the-badge"></a>
-  <!-- <a href="docs/cs/index.md"><img src="https://img.shields.io/badge/Čeština-8E8CD8?style=for-the-badge"></a> -->
-  <!-- <a href="docs/ua/index.md"><img src="https://img.shields.io/badge/Українська-FFD500?style=for-the-badge"></a> -->
-</p>
-
-<p align="center">
   <a href="docs/en/index.md">
     <img src="https://img.shields.io/badge/Get%20Started-%F0%9F%9A%80-4CAF50?style=for-the-badge" alt="Get Started">
   </a>
