@@ -24,12 +24,6 @@
 </p>
 
 <p align="center">
-  <a href="docs/en/index.md">
-    <img src="https://img.shields.io/badge/Get%20Started-%F0%9F%9A%80-4CAF50?style=for-the-badge" alt="Get Started">
-  </a>
-  <a href="docs/en/index.md#usage">
-    <img src="https://img.shields.io/badge/Read%20the%20Docs-%F0%9F%93%98-1976D2?style=for-the-badge" alt="Read the Docs">
-  </a>
   <a href="https://github.com/Rincodev/List2Folder/releases/latest">
     <img src="https://img.shields.io/badge/Download-%F0%9F%93%A6-FF9800?style=for-the-badge" alt="Download">
   </a>
@@ -47,7 +41,7 @@
   <a href="https://www.linkedin.com/in/bohdan-yatsenko-880a4831b/" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-follow-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="https://bohdan.admstore.cz/en/" target="_blank">
+  <a href="https://bohdan.nothix.eu/en/" target="_blank">
     <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-visit-111?style=for-the-badge&logo=globe&logoColor=white">
   </a>
 </p>
