@@ -44,6 +44,8 @@
 
 <p align="center">
   No downloading. Works with your existing files: match by tags (ID3/FLAC) + optional fuzzy matching, then copy/move into a new folder.
+  This project is currently distributed as a single Python script (playlist_to_folder.py).
+  A packaged CLI version may be added in future releases.
 </p>
 
 ---
@@ -80,7 +82,7 @@ pip install -r requirements.txt
 ### 2) Run
 
 ```bash
-python -m list2folder --help
+python playlist_to_folder.py --help
 ```
 
 ---
